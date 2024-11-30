@@ -1,3 +1,13 @@
+.container{
+background-color: #2d3d0593;
+border-radius: 5px;
+width: 60%;
+}
+.lang{
+  background-color: #2d3d0593;
+  border-radius: 5px;
+  margin-right: 30px;
+}
 .custom-button{
     border-radius: 6px;
     background-color: #3f570d; /* Green color */
@@ -5,7 +15,145 @@
     border: none;
     padding: 10px 20px;
   }
-  
+  .sophia{
+    background-image: url('/src/IMAGES/sophiapurehoney.png');
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-left: 10%;
+  }
   .custom-button:hover {
     background-color: #2d3d06; /* Darker green color on hover */
   }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f7f1f1; /* Light honey background */
+}
+#bee3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('/src/IMAGES/bee1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: fly3 5s linear infinite;
+}
+#bee2 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-image: url('/src/IMAGES/bee1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: fly2 11s linear infinite;
+}
+#bee {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-image: url('/src/IMAGES/bee1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fly 5s linear infinite;
+}
+@keyframes fly {
+    0% {
+        transform: translate(200px, 200px) rotate(40deg);
+    }
+    20% {
+        transform: translate(300px, 300px) rotate(50deg);
+    }
+    40% {
+        transform: translate(500px, 250px) rotate(20deg);
+    }
+    60% {
+        transform: translate(700px, 200px) rotate(-10deg);
+    }
+    70% {
+        transform: translate(600px, 150px) rotate(-30deg);
+    }
+    75% {
+        transform: translate(500px, 100px) rotate(-50deg);
+    }
+    80% {
+        transform: translate(400px, 90px) rotate(-70deg);
+    }
+    90% {
+        transform: translate(300px, 150px) rotate(-90deg);
+    }
+    100% {
+        transform: translate(200px, 200px) rotate(40deg); 
+    }
+}
+
+@keyframes fly2 {
+  0% {
+    transform: translate(600px, 400px) rotate(30deg);
+}
+20% {
+    transform: translate(700px, 380px) rotate(40deg);
+}
+40% {
+    transform: translate(900px, 350px) rotate(10deg);
+}
+60% {
+    transform: translate(1100px, 300px) rotate(-10deg);
+}
+70% {
+    transform: translate(1000px, 250px) rotate(-30deg);
+}
+75% {
+    transform: translate(900px, 200px) rotate(-40deg);
+}
+80% {
+    transform: translate(800px, 190px) rotate(-60deg);
+}
+90% {
+    transform: translate(700px, 350px) rotate(-80deg);
+}
+100% {
+    transform: translate(600px, 400px) rotate(30deg); 
+}
+}
+
+@keyframes fly3 {
+  0% {
+      transform: translate(100px, 200px) rotate(35deg);
+  }
+  10% {
+      transform: translate(105px, 195px) rotate(40deg);
+  }
+  20% {
+      transform: translate(110px, 190px) rotate(45deg);
+  }
+  30% {
+      transform: translate(115px, 185px) rotate(50deg);
+  }
+  40% {
+      transform: translate(120px, 190px) rotate(55deg);
+  }
+  50% {
+      transform: translate(125px, 195px) rotate(50deg);
+  }
+  60% {
+      transform: translate(130px, 200px) rotate(45deg);
+  }
+  70% {
+      transform: translate(135px, 205px) rotate(40deg);
+  }
+  80% {
+      transform: translate(130px, 210px) rotate(35deg);
+  }
+  90% {
+      transform: translate(125px, 205px) rotate(30deg);
+  }
+  100% {
+      transform: translate(100px, 200px) rotate(35deg); 
+  }
+}
+
