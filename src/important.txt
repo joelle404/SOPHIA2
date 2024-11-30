@@ -1,0 +1,5 @@
+ npm run build
+ npm run deploy 
+
+ npm i 
+ npm start
