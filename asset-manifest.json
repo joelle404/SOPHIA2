@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/SOPHIA2/static/css/main.dd3e2c0b.css",
-    "main.js": "/SOPHIA2/static/js/main.96c9e1d0.js",
+    "main.css": "/SOPHIA2/static/css/main.3938f6a8.css",
+    "main.js": "/SOPHIA2/static/js/main.f4092c67.js",
     "static/js/453.88b240b6.chunk.js": "/SOPHIA2/static/js/453.88b240b6.chunk.js",
-    "static/media/logo.png": "/SOPHIA2/static/media/logo.a9bc23f8560f487f70a3.png",
-    "static/media/comb1.jpg": "/SOPHIA2/static/media/comb1.04734ddc38bcd9e25555.jpg",
-    "static/media/honey1.jpg": "/SOPHIA2/static/media/honey1.43361e756b5d740afc98.jpg",
-    "static/media/comb2.jpg": "/SOPHIA2/static/media/comb2.6c369ed6b9f20d9512df.jpg",
-    "static/media/combnew1.jpg": "/SOPHIA2/static/media/combnew1.04f65d143a9e1ebfc1a2.jpg",
-    "static/media/honey3.jpg": "/SOPHIA2/static/media/honey3.46b14fa629298c66f6af.jpg",
+    "static/media/bee1.png": "/SOPHIA2/static/media/bee1.a5cc4f282946e210120e.png",
+    "static/media/sophiapurehoney.png": "/SOPHIA2/static/media/sophiapurehoney.7cf69bf1dfe608073ecb.png",
     "static/media/logo.svg": "/SOPHIA2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SOPHIA2/index.html",
-    "main.dd3e2c0b.css.map": "/SOPHIA2/static/css/main.dd3e2c0b.css.map",
-    "main.96c9e1d0.js.map": "/SOPHIA2/static/js/main.96c9e1d0.js.map",
+    "main.3938f6a8.css.map": "/SOPHIA2/static/css/main.3938f6a8.css.map",
+    "main.f4092c67.js.map": "/SOPHIA2/static/js/main.f4092c67.js.map",
     "453.88b240b6.chunk.js.map": "/SOPHIA2/static/js/453.88b240b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd3e2c0b.css",
-    "static/js/main.96c9e1d0.js"
+    "static/css/main.3938f6a8.css",
+    "static/js/main.f4092c67.js"
   ]
 }
