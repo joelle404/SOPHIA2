@@ -15,6 +15,30 @@ width: 60%;
     border: none;
     padding: 10px 20px;
   }
+ 
+  h5{
+    font-family:'Times New Roman', Times, serif;
+  }
+  .why{
+    margin-left: 2%;
+    width: 30%;
+  }
+   .imghon{
+   z-index: -1;
+    margin-top: 3%;
+    margin-left: 70%;
+    width: 400px;
+  }
+  .honeyimg{
+    background-image: url('/src/IMAGES/honey1.jpg');
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+ 
+  
+  }
   .sophia{
     background-image: url('/src/IMAGES/sophiapurehoney.png');
     position: absolute;
@@ -29,11 +53,144 @@ width: 60%;
     background-color: #2d3d06; /* Darker green color on hover */
   }
 
-  body {
-    margin: 0;
-    overflow: hidden;
-    background-color: #f7f1f1; /* Light honey background */
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfcf3;
 }
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 20px;
+  background-color: #fffbee;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2rem;
+  color: #d4a659;
+  margin-bottom: 20px;
+}
+
+/* .testimonial-slider {
+  display: flex;
+  overflow: hidden; 
+  white-space: nowrap; 
+  scroll-behavior: smooth; 
+  gap: 20px;
+} */
+.testimonial-slider {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-snap-type:x mandatory; /* Adds snapping behavior */
+  gap: 20px; /* Creates space between testimonials */
+  padding: 10px 0; /* Optional padding for aesthetics */
+  scroll-behavior: smooth; /* Smooth scrolling for a polished effect */
+}
+
+.testimonial {
+  scroll-snap-align: center; /* Ensures testimonials snap to the center */
+  flex: 0 0 auto; /* Prevents testimonials from shrinking or growing */
+  background-color: #fff9e6;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Fixed width for consistent layout */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  color: #6d4c41;
+  margin-bottom: 10px;
+}
+
+.testimonial span {
+  font-weight: bold;
+  color: #a67c00;
+}
+
+/* CTA Button */
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d4a659;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #a67c00;
+}
+/* Product Section */
+.product-section {
+  padding: 50px 20px;
+  background-color: #fffbee;
+  text-align: center;
+}
+
+.product-section h2 {
+  font-size: 2rem;
+  color: #d4a659;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  justify-items: center; /* Centers items horizontally */
+}
+
+.product-item {
+  background-color: #fff9e6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px; /* Restricts product card size */
+}
+
+.product-item img {
+  width: 100%; /* Makes images responsive */
+  border-radius: 10px;
+}
+
+.product-item h3 {
+  font-size: 1.2rem;
+  color: #6d4c41;
+  margin: 15px 0 10px;
+}
+
+.product-item p {
+  font-size: 1rem;
+  color: #6d4c41;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  background-color: #d4a659;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #a67c00;
+}
+
+
 #bee3 {
   position: absolute;
   width: 50px;
