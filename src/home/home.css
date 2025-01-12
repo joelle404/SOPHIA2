@@ -8,6 +8,7 @@
   --button-color: #3f570d;
   --text-color-primary: #6d4c41;
   --overlay-color: #2d3d0510;
+  --hover-color: #2d3d06;
 }
 
 .container {
@@ -315,3 +316,4 @@ body {
 .jar1 {
   background-image: url('/src/IMAGES/honey1.jpg');
 }
+
