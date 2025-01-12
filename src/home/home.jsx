@@ -111,37 +111,32 @@ const Home = () => {
     <h2>Our Honey Products</h2>
     <div class="product-grid">
       <div class="product-item">
-        <img src="path/to/honey-jar1.jpg" alt="Wildflower Honey" />
+     
         <h3>Wildflower Honey</h3>
         <p>Pure and natural honey harvested from wildflowers.</p>
         <button class="cta-button">Buy Now</button>
       </div>
       <div class="product-item">
-        <img src="path/to/honeycomb.jpg" alt="Honeycomb" />
         <h3>Honeycomb</h3>
         <p>Fresh and delicious honeycomb, perfect for snacking.</p>
         <button class="cta-button">Buy Now</button>
       </div>
       <div class="product-item">
-        <img src="path/to/lavender-honey.jpg" alt="Lavender Honey" />
         <h3>Lavender Honey</h3>
         <p>Infused with lavender for a soothing, floral flavor.</p>
         <button class="cta-button">Buy Now</button>
       </div>
       <div class="product-item">
-        <img src="path/to/clover-honey.jpg" alt="Clover Honey" />
         <h3>Clover Honey</h3>
         <p>Light and sweet honey made from clover blossoms.</p>
         <button class="cta-button">Buy Now</button>
       </div>
       <div class="product-item">
-        <img src="path/to/gift-set.jpg" alt="Honey Gift Set" />
         <h3>Honey Gift Set</h3>
         <p>A beautiful gift set of our best-selling honeys.</p>
         <button class="cta-button">Buy Now</button>
       </div>
       <div class="product-item">
-        <img src="path/to/creamed-honey.jpg" alt="Creamed Honey" />
         <h3>Creamed Honey</h3>
         <p>Smooth and creamy honey for easy spreading.</p>
         <button class="cta-button">Buy Now</button>
