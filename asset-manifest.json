@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SOPHIA2/static/css/main.3938f6a8.css",
+    "main.js": "/SOPHIA2/static/js/main.f4092c67.js",
+    "static/js/453.88b240b6.chunk.js": "/SOPHIA2/static/js/453.88b240b6.chunk.js",
+    "static/media/bee1.png": "/SOPHIA2/static/media/bee1.a5cc4f282946e210120e.png",
+    "static/media/sophiapurehoney.png": "/SOPHIA2/static/media/sophiapurehoney.7cf69bf1dfe608073ecb.png",
+    "static/media/logo.svg": "/SOPHIA2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SOPHIA2/index.html",
+    "main.3938f6a8.css.map": "/SOPHIA2/static/css/main.3938f6a8.css.map",
+    "main.f4092c67.js.map": "/SOPHIA2/static/js/main.f4092c67.js.map",
+    "453.88b240b6.chunk.js.map": "/SOPHIA2/static/js/453.88b240b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3938f6a8.css",
+    "static/js/main.f4092c67.js"
+  ]
+}
